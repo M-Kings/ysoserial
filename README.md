@@ -17,7 +17,7 @@ Example:
 
 
 ## 二.新增无commons-collections依赖的commons-beanutils  
-1.CommonsBeanutils1Shiro      #主要用于解决Shiro反序列化无commons-collections依赖问题。  
+1.CommonsBeanutils1Shiro      #主要用于解决Shiro反序列化无commons-collections依赖问题  
 
 Reference:  
 https://www.leavesongs.com/PENETRATION/commons-beanutils-without-commons-collections.html
@@ -56,4 +56,4 @@ http://gv7.me/articles/2019/enable-ysoserial-to-support-execution-of-custom-code
 ```java -jar ysoserial-0.0.6-SNAPSHOT-all.jar CommonsBeanutils1 "echo 123 >/tmp/123"```
 
 改了之后支持命令管道和重定向符问题,支持使用多参数命令传入:  
-```java -jar target/ysoserial-0.0.6-SNAPSHOT-all.jar CommonsBeanutils1 "bash" "-c" "echo 123 >/tmp/123"```
+```java -jar ysoserial-0.0.6-SNAPSHOT-all.jar CommonsBeanutils1 "bash" "-c" "echo 123 >/tmp/123"```
