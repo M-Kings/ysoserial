@@ -24,7 +24,7 @@ https://www.leavesongs.com/PENETRATION/commons-beanutils-without-commons-collect
 
 
 ## 三.新增Tomcat回显payload
-1.CommonsBeanutils1_TomcatEcho      #无commons-collections依赖的commons-beanutils回显  
+1.CommonsBeanutils1_TomcatEcho  
 2.CommonsBeanutils1Shiro_TomcatEcho    #无commons-collections依赖的commons-beanutils回显  
 
 Example:  
